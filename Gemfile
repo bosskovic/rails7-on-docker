@@ -57,6 +57,8 @@ group :development, :test do
   gem "rubocop-rails"
   gem "rubocop-rails-omakase", require: false
   gem "rubocop-rspec"
+  gem "factory_bot_rails"
+  gem 'standard'
 end
 
 group :development do
@@ -68,6 +70,8 @@ group :development do
 
   # Speed up commands on slow machines / big apps [https://github.com/rails/spring]
   # gem "spring"
+
+  gem 'annotate'
 end
 
 group :test do
